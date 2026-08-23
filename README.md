@@ -48,9 +48,13 @@ This is an academic project prototype. Before real-world deployment, add CSRF pr
 - Business / Requirements Analyst: requirements, user stories, documentation
 - Project Manager / Team Lead: coordination, schedule, integration tracking
 
+
+
+🖥️ Project Preview
+<p align="center"> <img src="assets/resolvehub-preview.png" alt="ResolveHub Dashboard" width="850"> </p>
 📈 Future Enhancements
 
-Possible future improvements include:
+The following features can be added in future versions:
 
 📧 Email notifications
 📱 SMS notifications
@@ -59,10 +63,10 @@ Possible future improvements include:
 📊 Advanced analytics and charts
 🗺️ Location-based complaint tracking
 ⭐ Citizen feedback and satisfaction ratings
-📱 Mobile application
+📱 Dedicated mobile application
 🤖 AI-assisted complaint categorization
 🔍 Advanced search and filtering
-📅 SLA and complaint deadline monitoring
+⏰ SLA and complaint deadline monitoring
 🎓 Project Purpose
 
 ResolveHub was developed as a practical web development project to demonstrate the implementation of:
@@ -76,22 +80,18 @@ PHP–MySQL integration
 Dashboard development
 Complaint workflow management
 Git and GitHub version control
-Deployment of a web application
+Web application deployment
 👨‍💻 Developer
 Saurav Kumar
 
-Computer Science / Engineering Student
-
 Project: ResolveHub — Complaint Management Portal
 
-The project was developed as a hands-on implementation of web development, database management, authentication, and software engineering concepts.
+A practical implementation of web development, database management, authentication, authorization, and complaint workflow management.
 
 📄 License
 
-This project is intended primarily for educational and portfolio purposes.
-
-You are welcome to explore the source code and learn from the implementation.
+This project is developed primarily for educational and portfolio purposes.
 
 ⭐ Support
 
-If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+If you find this project useful, consider giving the repository a ⭐ on GitHub.<p align="center"> <strong>ResolveHub</strong><br> Making Complaint Management Simpler, Faster & More Transparent. </p> ```
