@@ -264,7 +264,7 @@ define('DB_PASS', 'your_database_password');
 Open:
 
 ```text
-http://localhost/ResolveHub/
+https://resolvehub.great-site.net/
 ```
 
 ---
