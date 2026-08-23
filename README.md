@@ -1,65 +1,241 @@
+# 🏛️ ResolveHub — Full Complaint Management Portal
 
-<img width="2873" height="1612" alt="Screenshot 2026-08-23 161401" src="https://github.com/user-attachments/assets/2ca11e3b-56c0-45f5-aee6-21810051b0e4" />
+<p align="center">
+  <strong>A centralized web-based platform for submitting, tracking, managing, and resolving complaints.</strong>
+</p>
 
-<img width="2869" height="1555" alt="Screenshot 2026-08-23 161416" src="https://github.com/user-attachments/assets/8389d4c3-fd3b-4f0c-bced-e72c009e025b" />
+<p align="center">
+  PHP 8+ • MySQL • HTML5 • CSS3 • JavaScript • XAMPP
+</p>
 
-<img width="2863" height="1549" alt="Screenshot 2026-08-23 161445" src="https://github.com/user-attachments/assets/699623ab-e5d2-44b8-8aa0-819fbe1be7f8" />
+---
 
-# ResolveHub — Full Complaint Management Portal
+## 📸 Screenshots
 
-## Included
-- Modern landing page matching the ResolveHub visual direction
-- Citizen registration/login/logout
+### 🏠 Landing Page
+
+<p align="center">
+  <img width="2873" height="1612" alt="ResolveHub Landing Page" src="https://github.com/user-attachments/assets/2ca11e3b-56c0-45f5-aee6-21810051b0e4">
+</p>
+
+### 📊 Dashboard
+
+<p align="center">
+  <img width="2869" height="1555" alt="ResolveHub Dashboard" src="https://github.com/user-attachments/assets/8389d4c3-fd3b-4f0c-bced-e72c009e025b">
+</p>
+
+### 📝 Complaint Management
+
+<p align="center">
+  <img width="2863" height="1549" alt="ResolveHub Complaint Management" src="https://github.com/user-attachments/assets/699623ab-e5d2-44b8-8aa0-819fbe1be7f8">
+</p>
+
+---
+
+## ✨ Features
+
+### 👤 Citizen Features
+
+- Citizen registration and login
+- Secure logout
 - Citizen dashboard
 - Complaint submission
 - Auto-generated complaint ticket ID
-- Complaint history and tracking
+- Complaint history
+- Complaint tracking
 - Complaint timeline
+- Complaint status monitoring
+- Account settings
+- Password recovery
+
+### 🧑‍💼 Admin & Staff Features
+
 - Admin dashboard
-- Staff role
+- Staff role management
 - Department management
-- Complaint assignment to department/staff
-- Status updates and remarks
-- MySQL database
-- Responsive UI
+- Complaint assignment
+- Department-wise complaint management
+- Staff-wise complaint assignment
+- Complaint status updates
+- Resolution remarks
+- Complaint monitoring and tracking
 
-## Stack
-PHP 8+ / MySQL / HTML / CSS / JavaScript (small UI script)
+### 🗄️ Database Features
 
-## Setup with XAMPP
-1. Copy the `ResolveHub_Full_Portal` folder into `C:/xampp/htdocs/`.
-2. Start Apache and MySQL from XAMPP.
-3. Open phpMyAdmin.
-4. Import `schema.sql`.
-5. Check `config.php` and make sure MySQL username/password match your XAMPP setup.
-6. Open `http://localhost/ResolveHub_Full_Portal/seed_admin.php` once.
-7. Use:
-   Email: xxxxxxxx
-   Password: xxxxxxx
-8. Delete `seed_admin.php` after creating the admin.
-9. Open `https://resolvehub.great-site.net/`.
+- MySQL database integration
+- Structured complaint records
+- User and role management
+- Department records
+- Complaint status management
+- PDO-based database connectivity
 
-## Important
-This is an academic project prototype. Before real-world deployment, add CSRF protection, stronger access-control rules, rate limiting, secure file upload handling, email/SMS notifications, audit logging and production HTTPS configuration.
+### 🎨 Interface
 
-## Suggested team mapping
-- Developer / Technical Expert: complaint workflow + integration
-- Tester / QA: test cases and bug verification
-- Business / Requirements Analyst: requirements, user stories, documentation
-- Project Manager / Team Lead: coordination, schedule, integration tracking
+- Modern and clean user interface
+- Responsive design
+- Dashboard-based navigation
+- Structured complaint workflow
+- User-friendly forms
+- Consistent visual design
 
+---
 
+## 🔄 Complaint Workflow
 
-🖥️ Project Preview
-<p align="center"> <img src="assets/resolvehub-preview.png" alt="ResolveHub Dashboard" width="850"> </p>
+```text
+Citizen
+   │
+   ▼
+Register / Login
+   │
+   ▼
+Submit Complaint
+   │
+   ▼
+Generate Ticket ID
+   │
+   ▼
+Department Assignment
+   │
+   ▼
+Staff/Admin Review
+   │
+   ▼
+Status Update
+   │
+   ▼
+Resolution & Remarks
+   │
+   ▼
+Citizen Tracks Complaint
+🛠️ Technology Stack
+Technology	Purpose
+🐘 PHP 8+	Backend development
+🗄️ MySQL	Database management
+🌐 HTML5	Page structure
+🎨 CSS3	Styling and responsive UI
+⚡ JavaScript	Client-side interactions
+🖥️ XAMPP	Local development environment
+🔧 Git	Version control
+🐙 GitHub	Source code hosting
+📁 Project Structure
+ResolveHub/
+│
+├── assets/
+│   └── style.css
+│
+├── partials/
+│   ├── header.php
+│   └── footer.php
+│
+├── admin.php
+├── auth.php
+├── complaint.php
+├── complaints.php
+├── config.example.php
+├── dashboard.php
+├── db.php
+├── departments.php
+├── forgot_password.php
+├── index.php
+├── login.php
+├── logout.php
+├── manage_complaint.php
+├── my_complaints.php
+├── new_complaint.php
+├── register.php
+├── reset_password.php
+├── schema.sql
+├── settings.php
+├── track.php
+├── .htaccess
+├── .gitignore
+└── README.md
+🚀 Setup with XAMPP
+1️⃣ Clone the Repository
+git clone https://github.com/sauravkumar821010/ResolveHub.git
+
+Or download the repository as a ZIP file from GitHub.
+
+2️⃣ Move the Project
+
+Place the project folder inside:
+
+C:\xampp\htdocs\
+
+For example:
+
+C:\xampp\htdocs\ResolveHub\
+3️⃣ Start XAMPP
+
+Open XAMPP Control Panel and start:
+
+Apache
+MySQL
+4️⃣ Create the Database
+
+Open:
+
+http://localhost/phpmyadmin
+
+Create the required MySQL database and import:
+
+schema.sql
+5️⃣ Configure Database Connection
+
+Create your local:
+
+config.php
+
+using:
+
+config.example.php
+
+as the template.
+
+Add your own database credentials:
+
+define('DB_HOST', 'your_database_host');
+define('DB_NAME', 'your_database_name');
+define('DB_USER', 'your_database_username');
+define('DB_PASS', 'your_database_password');
+
+⚠️ Important: config.php contains local database credentials and should never be committed to the public repository.
+
+6️⃣ Run ResolveHub
+
+Open:
+
+http://localhost/ResolveHub/
+🔐 Security
+
+ResolveHub includes several security-related mechanisms:
+
+🔑 Password hashing
+👤 Authentication
+👥 Role-based access
+🔒 Session-based authorization
+🛡️ Protected administrative pages
+🔐 Password recovery functionality
+🗝️ Database credentials separated from the public repository
+
+For production deployment, additional security measures should be implemented, including:
+
+CSRF protection
+Stronger access-control policies
+Rate limiting
+Secure file upload handling
+Audit logging
+Production HTTPS configuration
+Secure email/SMS notification systems
 📈 Future Enhancements
 
-The following features can be added in future versions:
+Possible future improvements include:
 
 📧 Email notifications
 📱 SMS notifications
 📎 Complaint attachment support
-🔔 Real-time status notifications
+🔔 Real-time complaint status notifications
 📊 Advanced analytics and charts
 🗺️ Location-based complaint tracking
 ⭐ Citizen feedback and satisfaction ratings
@@ -84,9 +260,9 @@ Web application deployment
 👨‍💻 Developer
 Saurav Kumar
 
-Project: ResolveHub — Complaint Management Portal
+Project: ResolveHub — Full Complaint Management Portal
 
-A practical implementation of web development, database management, authentication, authorization, and complaint workflow management.
+ResolveHub represents a practical implementation of web development, database management, authentication, authorization, role-based access control, and complaint workflow management.
 
 📄 License
 
@@ -94,4 +270,6 @@ This project is developed primarily for educational and portfolio purposes.
 
 ⭐ Support
 
-If you find this project useful, consider giving the repository a ⭐ on GitHub.<p align="center"> <strong>ResolveHub</strong><br> Making Complaint Management Simpler, Faster & More Transparent. </p> ```
+If you find ResolveHub useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+<p align="center"> <strong>ResolveHub</strong><br> Making Complaint Management Simpler, Faster & More Transparent. </p> ```
