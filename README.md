@@ -47,3 +47,51 @@ This is an academic project prototype. Before real-world deployment, add CSRF pr
 - Tester / QA: test cases and bug verification
 - Business / Requirements Analyst: requirements, user stories, documentation
 - Project Manager / Team Lead: coordination, schedule, integration tracking
+
+📈 Future Enhancements
+
+Possible future improvements include:
+
+📧 Email notifications
+📱 SMS notifications
+📎 Complaint attachment support
+🔔 Real-time status notifications
+📊 Advanced analytics and charts
+🗺️ Location-based complaint tracking
+⭐ Citizen feedback and satisfaction ratings
+📱 Mobile application
+🤖 AI-assisted complaint categorization
+🔍 Advanced search and filtering
+📅 SLA and complaint deadline monitoring
+🎓 Project Purpose
+
+ResolveHub was developed as a practical web development project to demonstrate the implementation of:
+
+Full-stack web development
+Database management
+Authentication and authorization
+Role-based access control
+CRUD operations
+PHP–MySQL integration
+Dashboard development
+Complaint workflow management
+Git and GitHub version control
+Deployment of a web application
+👨‍💻 Developer
+Saurav Kumar
+
+Computer Science / Engineering Student
+
+Project: ResolveHub — Complaint Management Portal
+
+The project was developed as a hands-on implementation of web development, database management, authentication, and software engineering concepts.
+
+📄 License
+
+This project is intended primarily for educational and portfolio purposes.
+
+You are welcome to explore the source code and learn from the implementation.
+
+⭐ Support
+
+If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
