@@ -1,6 +1,9 @@
+
 <img width="2873" height="1612" alt="Screenshot 2026-08-23 161401" src="https://github.com/user-attachments/assets/2ca11e3b-56c0-45f5-aee6-21810051b0e4" />
 
 <img width="2869" height="1555" alt="Screenshot 2026-08-23 161416" src="https://github.com/user-attachments/assets/8389d4c3-fd3b-4f0c-bced-e72c009e025b" />
+
+<img width="2863" height="1549" alt="Screenshot 2026-08-23 161445" src="https://github.com/user-attachments/assets/699623ab-e5d2-44b8-8aa0-819fbe1be7f8" />
 
 # ResolveHub — Full Complaint Management Portal
 
