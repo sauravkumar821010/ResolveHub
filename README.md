@@ -15,7 +15,7 @@
 ## 🏠 Landing Page
 
 <p align="center">
-  <img width="2873" height="1612" alt="ResolveHub Landing Page" src="https://github.com/user-attachments/assets/2ca11e3b-56c0-45f5-aee6-21810051b0e4">
+  <img src="https://github.com/user-attachments/assets/2ca11e3b-56c0-45f5-aee6-21810051b0e4" alt="ResolveHub Landing Page" width="900">
 </p>
 
 <br>
@@ -23,7 +23,7 @@
 ## 📊 Dashboard
 
 <p align="center">
-  <img width="2869" height="1555" alt="ResolveHub Dashboard" src="https://github.com/user-attachments/assets/8389d4c3-fd3b-4f0c-bced-e72c009e025b">
+  <img src="https://github.com/user-attachments/assets/8389d4c3-fd3b-4f0c-bced-e72c009e025b" alt="ResolveHub Dashboard" width="900">
 </p>
 
 <br>
@@ -31,7 +31,7 @@
 ## 📝 Complaint Management
 
 <p align="center">
-  <img width="2863" height="1549" alt="ResolveHub Complaint Management" src="https://github.com/user-attachments/assets/699623ab-e5d2-44b8-8aa0-819fbe1be7f8">
+  <img src="https://github.com/user-attachments/assets/699623ab-e5d2-44b8-8aa0-819fbe1be7f8" alt="ResolveHub Complaint Management" width="900">
 </p>
 
 ---
@@ -118,19 +118,28 @@ Resolution & Remarks
    │
    ▼
 Citizen Tracks Complaint
-🛠️ Technology Stack
-Technology	Purpose
-🐘 PHP 8+	Backend development
-🗄️ MySQL	Database management
-🌐 HTML5	Page structure
-🎨 CSS3	Styling and responsive UI
-⚡ JavaScript	Client-side interactions
-🖥️ XAMPP	Local development environment
-🔧 Git	Version control
-🐙 GitHub	Source code hosting
+```
 
-📁 Project Structure
+---
 
+# 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| 🐘 PHP 8+ | Backend development |
+| 🗄️ MySQL | Database management |
+| 🌐 HTML5 | Page structure |
+| 🎨 CSS3 | Styling and responsive UI |
+| ⚡ JavaScript | Client-side interactions |
+| 🖥️ XAMPP | Local development environment |
+| 🔧 Git | Version control |
+| 🐙 GitHub | Source code hosting |
+
+---
+
+# 📁 Project Structure
+
+```text
 ResolveHub/
 │
 ├── assets/
@@ -163,150 +172,200 @@ ResolveHub/
 ├── .htaccess
 ├── .gitignore
 └── README.md
+```
 
-🚀 Setup with XAMPP
+---
 
-1️⃣ Clone the Repository
+# 🚀 Setup with XAMPP
+
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/sauravkumar821010/ResolveHub.git
+```
 
 Or download the repository as a ZIP file from GitHub.
 
 <br>
-2️⃣ Move the Project
 
-Place the project folder inside:
+## 2. Move the Project
 
+Place the project inside:
+
+```text
 C:\xampp\htdocs\
+```
 
 For example:
 
+```text
 C:\xampp\htdocs\ResolveHub\
-<br>
-3️⃣ Start XAMPP
+```
 
-Open XAMPP Control Panel and start:
-
-Apache
-MySQL
 <br>
-4️⃣ Create the Database
+
+## 3. Start XAMPP
+
+Open the XAMPP Control Panel and start:
+
+- Apache
+- MySQL
+
+<br>
+
+## 4. Create the Database
 
 Open:
 
+```text
 http://localhost/phpmyadmin
+```
 
 Create the required MySQL database and import:
 
+```text
 schema.sql
+```
+
 <br>
-5️⃣ Configure Database Connection
+
+## 5. Configure Database Connection
 
 Create your local:
 
+```text
 config.php
+```
 
 using:
 
+```text
 config.example.php
+```
 
 as the template.
 
 Add your own database credentials:
 
+```php
 define('DB_HOST', 'your_database_host');
 define('DB_NAME', 'your_database_name');
 define('DB_USER', 'your_database_username');
 define('DB_PASS', 'your_database_password');
+```
 
-⚠️ Important: config.php contains local database credentials and should never be committed to the public repository.
+> ⚠️ **Important:** `config.php` contains local database credentials and should never be committed to the public repository.
 
 <br>
-6️⃣ Run ResolveHub
+
+## 6. Run ResolveHub
 
 Open:
 
+```text
 http://localhost/ResolveHub/
+```
 
-🔐 Security
+---
 
-ResolveHub includes several security-related mechanisms:
+# 🔐 Security
 
-🔑 Password hashing
-👤 Authentication
-👥 Role-based access
-🔒 Session-based authorization
-🛡️ Protected administrative pages
-🔐 Password recovery functionality
-🗝️ Database credentials separated from the public repository
+ResolveHub includes several security mechanisms:
+
+- 🔑 Password hashing
+- 👤 Authentication
+- 👥 Role-based access control
+- 🔒 Session-based authorization
+- 🛡️ Protected administrative pages
+- 🔐 Password recovery
+- 🗝️ Database credentials separated from the public repository
+
 <br>
-🔒 Production Security Improvements
 
-For production deployment, additional security measures should be implemented:
+## 🔒 Production Security Improvements
 
-CSRF protection
-Stronger access-control policies
-Rate limiting
-Secure file upload handling
-Audit logging
-Production HTTPS configuration
-Secure email/SMS notification systems
+Before production deployment, the following improvements are recommended:
 
-📈 Future Enhancements
+- CSRF protection
+- Stronger access-control policies
+- Rate limiting
+- Secure file upload handling
+- Audit logging
+- Production HTTPS configuration
+- Secure email/SMS notification systems
+
+---
+
+# 📈 Future Enhancements
 
 Possible future improvements include:
 
-📧 Email notifications
-📱 SMS notifications
-📎 Complaint attachment support
-🔔 Real-time complaint status notifications
-📊 Advanced analytics and charts
-🗺️ Location-based complaint tracking
-⭐ Citizen feedback and satisfaction ratings
-📱 Dedicated mobile application
-🤖 AI-assisted complaint categorization
-🔍 Advanced search and filtering
-⏰ SLA and complaint deadline monitoring
+- 📧 Email notifications
+- 📱 SMS notifications
+- 📎 Complaint attachment support
+- 🔔 Real-time complaint status notifications
+- 📊 Advanced analytics and charts
+- 🗺️ Location-based complaint tracking
+- ⭐ Citizen feedback and satisfaction ratings
+- 📱 Dedicated mobile application
+- 🤖 AI-assisted complaint categorization
+- 🔍 Advanced search and filtering
+- ⏰ SLA and complaint deadline monitoring
 
-🎓 Project Purpose
+---
 
-ResolveHub was developed as a practical web development project to demonstrate the implementation of:
+# 🎓 Project Purpose
 
-Full-stack web development
-Database management
-Authentication and authorization
-Role-based access control
-CRUD operations
-PHP–MySQL integration
-Dashboard development
-Complaint workflow management
-Git and GitHub version control
-Web application deployment
+ResolveHub was developed as a practical web development project to demonstrate:
 
-👨‍💻 Developer
-Saurav Kumar
+- Full-stack web development
+- Database management
+- Authentication and authorization
+- Role-based access control
+- CRUD operations
+- PHP–MySQL integration
+- Dashboard development
+- Complaint workflow management
+- Git and GitHub version control
+- Web application deployment
 
-Project: ResolveHub — Full Complaint Management Portal
+---
 
-ResolveHub represents a practical implementation of:
+# 👨‍💻 Developer
 
-Web development
-Database management
-Authentication
-Authorization
-Role-based access control
-Complaint workflow management
+## **Saurav Kumar**
 
-📄 License
+**Project:** ResolveHub — Full Complaint Management Portal
 
-This project is developed primarily for educational and portfolio purposes.
+ResolveHub is a practical implementation of:
 
-⭐ Support
+- Web development
+- Database management
+- Authentication
+- Authorization
+- Role-based access control
+- Complaint workflow management
 
-If you find ResolveHub useful or interesting, consider giving the repository a ⭐ on GitHub.
+---
+
+# 📄 License
+
+This project is developed primarily for **educational and portfolio purposes**.
+
+---
+
+# ⭐ Support
+
+If you find **ResolveHub** useful or interesting, consider giving the repository a ⭐ on GitHub.
+
+---
 
 <p align="center">
-🏛️ ResolveHub
+
+<strong>🏛️ ResolveHub</strong>
+
+<br><br>
 
 <strong>Making Complaint Management Simpler, Faster & More Transparent.</strong>
 
-</p> ```
+</p>
