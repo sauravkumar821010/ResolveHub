@@ -27,10 +27,10 @@ PHP 8+ / MySQL / HTML / CSS / JavaScript (small UI script)
 5. Check `config.php` and make sure MySQL username/password match your XAMPP setup.
 6. Open `http://localhost/ResolveHub_Full_Portal/seed_admin.php` once.
 7. Use:
-   Email: admin@resolvehub.local
-   Password: Admin@123
+   Email: xxxxxxxx
+   Password: xxxxxxx
 8. Delete `seed_admin.php` after creating the admin.
-9. Open `http://localhost/ResolveHub_Full_Portal/`.
+9. Open `https://resolvehub.great-site.net/`.
 
 ## Important
 This is an academic project prototype. Before real-world deployment, add CSRF protection, stronger access-control rules, rate limiting, secure file upload handling, email/SMS notifications, audit logging and production HTTPS configuration.
